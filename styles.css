@@ -1,0 +1,123 @@
+.navigation{
+  position: fixed;
+  top: 0px;
+  background-color: rgb(247,86,86);
+  width: 100%;
+}
+.brand,ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: nowrap wrap-reverse;
+  display: flex;
+  flex-wrap: nowrap;
+}
+nav{
+  display: flex;
+  justify-content: flex-end;
+}
+
+li a{
+  display: block ;
+  color: aliceblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: black;
+}
+
+.nav-dropdown{
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+.nav-dropdown a{
+  display: block;
+  background-color: rgb(247,86,86);
+}
+.nav-dropdown a:hover{
+  background-color: rgb(247,86,86);
+}
+.nav-loca:hover .nav-dropdown{
+  display: block;
+}
+.nav-ven:hover .nav-dropdown{
+  display: block;
+}
+
+ main{
+      margin-top: 100px;
+  }
+  #Home{
+    padding-top: 100px;
+    margin-top: 20%;
+      width: 100%;
+      height: 600px;
+      background: linear-gradient(45deg, #00f 1%, #fff 1%, #fff 49%, #00f 49%, #00f 51%, #fff 51%, #fff 99%, #00f 99%);
+  background-size: 6px 6px;
+  background-position: 50px 50px;
+  }
+  #About{
+    padding-top: 100px;
+      width: 100%;
+      height: 600px;
+      background: rgb(247,86,86);
+background: radial-gradient(circle, rgba(247,86,86,0.4290091036414566) 0%, rgba(113,113,113,1) 100%);
+  }
+  #location{
+    padding-top: 100px;
+      width: 100%;
+      height: 600px;
+  }
+  img{
+      width: 300px;
+      height: 150px;
+  }
+  #estimervotrebien{
+    padding-top: 100px;
+    width: 100%;
+    height: 600px;
+
+  }
+  #vendre{
+    padding-top: 100px;
+    width: 100%;
+    height: 600px;
+  }
+  #contact{
+    padding-top: 100px;
+  }
+  iframe{
+    
+    height: 400px;
+  }
+  footer{
+    display: flex;
+    justify-content: flex-end;
+  }
+  h1{
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    font-style: italic;
+  }
+  input { 
+   display: flex;
+   justify-content: center;
+   margin-left: 350px;
+  }
+  label{
+    margin-left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    color: rebeccapurple;
+    font-size: 20px;
+  }
+  h2{
+    padding-top: 100px;
+  }
